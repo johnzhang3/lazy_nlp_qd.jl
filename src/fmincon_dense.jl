@@ -43,8 +43,8 @@ end
 
 function sparsity_jacobian(n,m)
 
-    row = []
-    col = []
+    row = Int64[]
+    col = Int64[]
 
     r = 1:m
     c = 1:n
